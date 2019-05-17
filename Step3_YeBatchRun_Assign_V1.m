@@ -19,7 +19,7 @@ dataFiles = dir(fullfile(strcat(dataPath,'*storm*.dax')));
 
 for ii=1:length(dataFiles)
     try
-    FuncMasterRunFile_insight(dataPath, 'split\', dataFiles(ii).name(1:end-4),'split\');
+    FuncMasterRunFile_insight_V1(dataPath, 'split\', dataFiles(ii).name(1:end-4),'split\');
     end
 end
 
@@ -33,7 +33,7 @@ for i = 1:length(subFolders)
 
 for ii=1:length(dataFiles)
     try
-    FuncMasterRunFile_insight(dataPathSub, 'split\', dataFiles(ii).name(1:end-4),'split\');
+    FuncMasterRunFile_insight_V1(dataPathSub, 'split\', dataFiles(ii).name(1:end-4),'split\');
     end
 end
  
