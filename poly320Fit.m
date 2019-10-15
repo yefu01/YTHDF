@@ -24,7 +24,7 @@ opts.Lower = [-Inf -Inf 0 -Inf];
 %opts.Lower = [-Inf -Inf 0 0]; %Use this line to fit A = 0;
 %opts.Upper = [Inf Inf 0 0];
 opts.Robust = 'LAR';
-opts.Upper = [Inf Inf 0 0]; % A is small than 0. -logP(measured) smaller than -logP(real)
+opts.Upper = [Inf Inf 0 Inf]; % A is small than 0. -logP(measured) smaller than -logP(real)
 
 % Fit model to data.
 [fitresult, gof] = fit( xData, yData, ft, opts);
