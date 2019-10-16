@@ -3,10 +3,9 @@
 
 % calibrate in 3D the two channels.
 % generate the warping matrix from Cy5 channel to the Cy3 channel.
-% dataPath = 'L:\20180207 two color CB1 NCAM B2\DIV24 CB1-Cy3-647 B2-680\';
+
 function function_split_two_channel(dataPath, FileName)
 output_folder='split\';
-%FileName = ['storm CB1_647_B2_680_000' num2str(i)]; %Change file name here
 [Datafiles, InfoFile] = ReadDax([dataPath FileName],'startFrame', 1, 'endFrame', 1000);
 FrameNumber = InfoFile.number_of_frames;
 for j = 0: floor(FrameNumber/1000)
