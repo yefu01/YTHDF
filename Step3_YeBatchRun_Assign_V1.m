@@ -8,7 +8,7 @@ addpath('C:\Users\Ye\matlab-storm\Functions\DataTypes\');
 addpath('C:\Users\Ye\matlab-storm\Functions\IO\');
 addpath('C:\Users\Ye\matlab-storm\Functions\Misc\');
 addpath('M:\Matlab\Dual_View_Boran');
-dataPath = '\\NEPTUNE\data\'; %Datapath here
+dataPath = ''; %Datapath here
 analysisPath = dataPath;
 pixelSize = 167; 
 dataFiles = dir(fullfile(strcat([dataPath],'*storm*.dax')));
