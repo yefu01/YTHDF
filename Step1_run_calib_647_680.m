@@ -10,7 +10,7 @@ addpath('C:\Users\Ye\matlab-storm\Functions\Misc\');
 %c:\MinGW64\mingw\bin\;c:\MinGW64\mingw\lib\;c:\Users\Hazen\lib\;
 global daoSTORMexe;
 daoSTORMexe='path=C:\Python27\;C:\Users\Hazen\storm-analysis\windows_dll\; && set PYTHONPATH=%PYTHONPATH%;C:\Users\Hazen\storm-analysis\;  && python.exe C:\Users\Hazen\storm-analysis\3d_daostorm\mufit_analysis.py';
-dataPath = '\\NEPTUNE\data\lncRNA\20181205_storm\beads\';
+dataPath = ''; %dataPath for Beads image here
 analysisPath = dataPath;
 pixelSize = 167; 
 threshold=50;
