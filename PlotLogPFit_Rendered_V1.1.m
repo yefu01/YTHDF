@@ -5,7 +5,7 @@
 
 close all;
 clear all;
-dataPath = 'D:\STORM1_Data\20190108_U2OS_siY1Y3_G3BP1-647\B1_siCtr_None\'; %Folder name here
+dataPath = ''; %Folder name here
 datafiles = dir(fullfile(strcat(dataPath, '*RenderCluster*.xls'))); %Cluster file name
 
 Area = {};
