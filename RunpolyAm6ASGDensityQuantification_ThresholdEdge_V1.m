@@ -8,7 +8,7 @@
 %% Define path to analysis codes
 matlabStormPath = 'N:\MATLAB_Analysis\';
 %% Define paths and paramters for images to be analyzed
-mainDirPath = 'Q:\STORM2_Data\20190829_U2OS+NaAsO2+BlueLight_siRNA_pYF127_128_BFP-405_DCP1A-488_G3BP1-561_Y3-680_Y1_BFP-750\A4_siC_pYF128_750-BFP\';
+mainDirPath = 'Q:\STORM2_Data\'; %Data folder here
 
 % Image parameters
 
